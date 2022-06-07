@@ -16,7 +16,7 @@ Ports = Website, Tests, App
 
 ## Goal of these principles
 
-Increased clarity and testability resulting from the "separation of concerns"
+Increased clarity and testability resulting from the **separation of concerns**
 
  
  ## Testing command
