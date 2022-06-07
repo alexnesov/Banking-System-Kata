@@ -11,8 +11,8 @@ Ports = Website, Tests, App
 
 <ul>
 <li> Separation of concerns &rarr; Removal of <b>side effects</b>
-<li> Domain layer not imported form any other part of the application. Because it's the center, the business logic. The other element should gravitate around, and not the other way around.
-<li> Domain is stack agnostic, ca be chaged without any impact on business logic
+<li> The domain layer is not imported form any other part of the system. Because the domain is the center, the business logic. The other system elements should gravitate around the domain, and not the other way around.
+<li> The domain is stack agnostic, ca be chaged without any impact on business logic
 </ul>
 
 These guiding principles are interesting as they show how Python <b>Abstract Base Classes</b> are useful to depict the pure business logic.
