@@ -10,7 +10,7 @@ Ports = Website, Tests, App
 ## Guiding principles
 
 <ul>
-<li> Separation of concerns &rarr Removal of side effects
+<li> Separation of concerns &rarr; Removal of side effects
 <li> Domain layer not imported form any other part of the application. Because it's the center, the business logic. The other element should gravitate around, and not the other way around.
 <li> Domain is stack agnostic, ca be chaged without any impact on business logic
 </ul>
