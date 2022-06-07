@@ -18,6 +18,8 @@ Ports = Website, Tests, App
 
 Increased clarity and testability resulting from the **separation of concerns**
 
+ ## Running the app
+ <code>python src/main.py</code>
  
  ## Testing command
  While being in <code>/src</code> type <code>python -m pytest src.tests</code>
