@@ -8,7 +8,7 @@ class InMemoryAccountRepository(AccountRepository):
     def __init__(self):
         self.accounts = []
 
-    def add(self, account: Account) -> Account:
+    def add_account(self, account: Account) -> Account:
         self.accounts.append(account)
         return account
 

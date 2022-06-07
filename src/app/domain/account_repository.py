@@ -5,7 +5,7 @@ from app.domain.account import Account
 
 class AccountRepository(metaclass=abc.ABCMeta):
     @abc.abstractmethod
-    def add(self, vote: Account) -> Account:
+    def add_account(self, vote: Account) -> Account:
         raise NotImplementedError
     
     @abc.abstractmethod
