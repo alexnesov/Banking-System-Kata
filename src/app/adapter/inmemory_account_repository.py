@@ -14,6 +14,3 @@ class InMemoryAccountRepository(AccountRepository):
 
     def list_accounts(self) -> List[Account]:
         return self.accounts
-
-    def total(self) -> int:
-        return len(self.accounts)
