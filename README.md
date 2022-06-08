@@ -10,7 +10,7 @@ Ports = Website, Tests, App
 
 
 
-## Guiding principles
+## Guiding principles to build the hexagonal architecture
 
 <ul>
 <li> Separation of concerns 
