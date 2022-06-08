@@ -6,8 +6,7 @@ def main():
 
     account_repository = InMemoryAccountRepository()
 
-    Account().save(account_repository)
-    Account().save(account_repository)
+    Account().add_account(account_repository)
 
     print(account_repository.list_accounts())
 

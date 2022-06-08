@@ -23,6 +23,9 @@ These guiding principles are interesting as they show how Python's <b>Abstract B
 The **implementation** of ABC is outside the pure domain, where ABCs were defined. The business logic can be sensed through these ABCs.
 The implementation and other technical details depends on the business logic, and not the other way around.
 
+
+Picture source: Https://beyondxscratch.com/2017/08/19/hexagonal-architecture-the-practical-guide-for-a-clean-architecture/
+
 ## Goal of these principles
 
 Increased clarity and testability resulting from the **separation of concerns**
@@ -31,4 +34,4 @@ Increased clarity and testability resulting from the **separation of concerns**
  <code>python src/main.py</code>
 
  ## Testing command
- While being in <code>/src</code> type <code>python -m pytest src.tests</code>
+ While being in <code>/src</code> type <code>python -m pytest tests</code>
