@@ -15,7 +15,7 @@ Ports = Website, Tests, App
 <ul>
 <li> TDD mindset, start from the user story test 
 <li> Separation of concerns 
-<li> The domain layer is not imported form any other part of the system. Because the domain is the center, the business logic. The other system elements should gravitate around the domain, and not the other way around.
+<li> The domain layer is not imported from any other part of the system. Because the domain is the center, the business logic. The other system elements should gravitate around the domain, and not the other way around.
 <li> The domain is stack agnostic, ca be changed without any impact on business logic
 </ul>
 
