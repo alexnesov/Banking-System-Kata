@@ -13,7 +13,7 @@ Ports = Website, Tests, App
 ## Guiding principles
 
 <ul>
-<li> Separation of concerns &rarr; Removal of <b>side effects</b>
+<li> Separation of concerns 
 <li> The domain layer is not imported form any other part of the system. Because the domain is the center, the business logic. The other system elements should gravitate around the domain, and not the other way around.
 <li> The domain is stack agnostic, ca be chaged without any impact on business logic
 </ul>
@@ -25,7 +25,7 @@ The implementation and other technical details depends on the business logic, an
 
 ## Goal of these principles
 
-Increased clarity and testability resulting from the **separation of concerns**
+Increased clarity and testability resulting from the **separation of concerns** and removal of **side effects*
 
  ## Running the app
  <code>python src/main.py</code>
