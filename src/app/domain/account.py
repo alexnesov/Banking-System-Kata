@@ -8,7 +8,10 @@ if TYPE_CHECKING:
 
 @dataclass
 class Account:
+    account_holder_lastname: str 
+    account_holder_firstname: str 
     account_id: str = field(default_factory=lambda: str(uuid.uuid4()))
+
 
     def add_account(self, account_repository: 'AccountRepository'):
         return account_repository.add_account(self)
