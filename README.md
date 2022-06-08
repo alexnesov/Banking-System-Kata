@@ -15,7 +15,7 @@ Ports = Website, Tests, App
 <ul>
 <li> Separation of concerns 
 <li> The domain layer is not imported form any other part of the system. Because the domain is the center, the business logic. The other system elements should gravitate around the domain, and not the other way around.
-<li> The domain is stack agnostic, ca be chaged without any impact on business logic
+<li> The domain is stack agnostic, ca be changed without any impact on business logic
 </ul>
 
 ## How these principles are linked to the actual code in this repo: 
