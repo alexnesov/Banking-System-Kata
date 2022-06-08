@@ -20,7 +20,7 @@ Ports = Website, Tests, App
 
 ## How these principles are linked to the actual code in this repo: 
 These guiding principles are interesting as they show how Python's <b>Abstract Base Classes</b> (ABC) are useful to depict the pure business logic.
-The **implementation** of ABC is outside the pure domain, where ABCs were defined. The business logic can be sensed through these ABCs.
+The **implementation** of ABC is outside the pure domain (where the ABCs were defined). The business logic can be sensed through these ABCs.
 The implementation and other technical details depends on the business logic, and not the other way around.
 
 ## Goal of these principles
