@@ -35,8 +35,4 @@ Increased clarity and testability resulting from the **separation of concerns** 
  <code>python src/main.py</code>
 
  ## Testing command
-<<<<<<< HEAD
  While being in <code>/src</code> type <code>python -m pytest tests</code>
-=======
- While being in <code>/src</code> type <code>python -m pytest src.tests</code>
->>>>>>> ca774249c001fa809ad50b4d4459fb9a3451906e
