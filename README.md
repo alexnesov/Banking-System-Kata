@@ -29,7 +29,7 @@ Picture source: Https://beyondxscratch.com/2017/08/19/hexagonal-architecture-the
 
 ## Goal of these principles
 
-Increased clarity and testability resulting from the **separation of concerns** and removal of **side effects*
+Increased clarity and testability resulting from the **separation of concerns** and removal of **side effects**
 
  ## Running the app
  <code>python src/main.py</code>
