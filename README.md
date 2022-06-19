@@ -11,7 +11,7 @@ Ports = Website, Tests, App
 *Is this ports and adapters? Or is it **hexagonal architecture**? Is that the same as onion architecture? What about the clean architecture? What's a port, and what's an adapter? Why do you people have so many words for the same thing?*
 *Although some people like to nitpick over the differences, all these are pretty much names for the same thing, and thhey all boil down to the **dependency inversion principle: high-level modules (the domain) should not depend on low-level ones (the infrastructure).***
 
-*Architecture Patterns with Python*, Harry J.W. Percival & Bob Gregory
+*Architecture Patterns with Python*, Harry J.W. Percival & Bob
 
 ## Guiding principles to build the hexagonal architecture
 
@@ -39,3 +39,25 @@ Increased clarity and testability resulting from the **separation of concerns** 
 
  ## Testing command
  While being in <code>/src</code> type <code>python -m pytest tests</code>
+
+
+# User Stories
+
+## 1
+
+In order to save money
+As a bank client
+I want to make a deposit in my account
+
+
+## 2
+
+In order to retrieve some or all of my savings
+As a bank client
+I want to make a withdrawal from my account
+
+## 3
+
+In order to check my operations
+As a bank client
+I want to see the history (operation, date, amount, balance) of my operations
