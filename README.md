@@ -8,7 +8,10 @@ Also known as "Ports and Adapters".
 Adapters = DB, Cache, ... <br>
 Ports = Website, Tests, App
 
+*Is this ports and adapters? Or is it **hexagonal architecture**? Is that the same as onion architecture? What about the clean architecture? What's a port, and what's an adapter? Why do you people have so many words for the same thing?*
+*Although some people like to nitpick over the differences, all these are pretty much names for the same thing, and thhey all boil down to the **dependency inversion principle: high-level modules (the domain) should not depend on low-level ones (the infrastructure).***
 
+*Architecture Patterns with Python*, Harry J.W. Percival & Bob Gregory
 
 ## Guiding principles to build the hexagonal architecture
 
