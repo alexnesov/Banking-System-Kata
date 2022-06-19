@@ -45,19 +45,19 @@ Increased clarity and testability resulting from the **separation of concerns** 
 
 ## 1
 
-In order to save money
-As a bank client
+In order to save money <br>
+As a bank client <br>
 I want to make a deposit in my account
 
 
 ## 2
 
-In order to retrieve some or all of my savings
-As a bank client
+In order to retrieve some or all of my savings <br>
+As a bank client <br>
 I want to make a withdrawal from my account
 
 ## 3
 
-In order to check my operations
-As a bank client
+In order to check my operations <br>
+As a bank client <br>
 I want to see the history (operation, date, amount, balance) of my operations
