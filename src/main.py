@@ -1,12 +1,13 @@
 from app.adapter.inmemory_account_repository import InMemoryAccountRepository
 from app.domain.account import Account
-
+from app.domain.banking_system import BankingSystem
 
 def main():
+    """
+    """
 
     account_repository = InMemoryAccountRepository()
-
-    Account("alex", "nesov").add_account(account_repository)
+    BankingSystem(account_repository).screen()
 
     print(account_repository.list_accounts())
 

@@ -44,6 +44,6 @@ class SystemMenuTest(Menu):
 
 if __name__ == '__main__':
     """
-    Just testing the Menu
+    Just testing the CMD line Menu
     """
     SystemMenuTest().screen()
